@@ -1,8 +1,12 @@
-# Game "Hangman" version 0.1
+# Game "Hangman" version 0.2
 
 ## Launch rules
-To run the game via the command line, go to the root folder of the game and run 
-`ruby main.rb`
+To run the game: via the command line, go to the root folder of the game and run 
+
+1. install ruby
+2. Go to the root folder of the game.
+3. do 'bundle install'
+4. do 'ruby main.rb'
 
 Words for guessing are in the file /data/words.txt
 
