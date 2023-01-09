@@ -7,8 +7,8 @@ class Game
   end
 
   def normalize_letter(letter)
-    return 'Е' if letter == 'Ё'
-    return "И" if letter == 'Й'
+    return "Е" if letter == "Ё"
+    return "И" if letter == "Й"
 
     letter
   end
@@ -30,7 +30,7 @@ class Game
   end
 
   def letters_to_guess
-    @letters.map {|letter| letter if @user_guesses.include?(normalize_letter(letter))}
+    @letters.map { |letter| letter if @user_guesses.include?(normalize_letter(letter)) }
   end
 
   def lost?
