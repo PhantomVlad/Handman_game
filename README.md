@@ -6,9 +6,14 @@ To run the game: via the command line, go to the root folder of the game and run
 1. install ruby
 2. Go to the root folder of the game.
 3. Launch console command
-<bundle install>
+```
+bundle install
+```
+
 4. Launch game in console
-<ruby main.rb>
+```
+ruby main.rb
+```
 
 Words for guessing are in the file /data/words.txt
 
