@@ -12,10 +12,10 @@ bundle install
 
 4. Launch game in console
 ```
-ruby main.rb
+bundle exec ruby main.rb
 ```
 
-Words for guessing are in the file /data/words.txt
+Words for guessing are in the file ```data/words.txt```
 
 You can add new words from a new line
 
